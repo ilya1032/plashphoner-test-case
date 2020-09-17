@@ -97,7 +97,7 @@ public class Server implements ActionListener {
         Server server = new Server();
 
         //set RTSP socket port
-        int RTSPport = 5540;
+        int RTSPport = 554;
         server.RTSP_dest_port = RTSPport;
 
         //Initiate TCP connection with the client for the RTSP session
